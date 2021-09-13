@@ -34,6 +34,7 @@ h1{
 .date{
     font-size: 12px;
     color: grey;
+    margin-bottom: 20px;
 }
 .lorem-ipsum{
     margin-top: 20px;
@@ -64,4 +65,36 @@ td{
 }
 .row-lightblu{
     background-color: lightblue;
+}
+footer{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.suggested{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.monitor-image{
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/monitor.jpg');
+}
+.graph-image{
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../img/graph.jpg');
+}
+.image-text{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
 }
