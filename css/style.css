@@ -17,6 +17,10 @@ header .logo{
     margin-left: 10px;
 }
 
+main{
+    margin: 5px;
+}
+
 h1{
     margin-top: 20px;
 }
@@ -32,9 +36,32 @@ h1{
     color: grey;
 }
 .lorem-ipsum{
-    font-size: 20px;
     margin-top: 20px;
+    font-size: 20px;
 }
 .lorem-ipsum-highlight{
     background-color: yellow;
+}
+.lorem-ipsum-list{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.table{
+    margin-top: 20px;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    width: 50px;
+}
+.table-head{
+    background-color: rgba(0, 132, 255, 0.794);
+}
+.table-head td{
+    color: white;
+}
+.row-lightblu{
+    background-color: lightblue;
 }
